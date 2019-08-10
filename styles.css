@@ -1,3 +1,39 @@
 body {
     background-color: yellow;
+    margin: 0;
+}
+
+header {
+    background-color: #a7fa98;
+    padding: 1em;
+    overflow: auto;
+}
+h1 {
+    margin: 0;
+    float: left;
+    width: 400px;
+}
+nav {
+    /* background-color: #aaaaaa; */
+    margin: 0 -1em;
+    margin-left: 400px;
+}
+nav ul {
+    margin: 0;
+    padding: 0 1em;
+    list-style: none;
+    overflow: auto;
+}
+nav li {
+    float: left;
+}
+nav a {
+    color: black;
+    text-decoration: none;
+    padding: 0.5em;
+    display: block;
+}
+nav a:hover {
+    background-color: black;
+    color: white;
 }
